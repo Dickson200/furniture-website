@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    text-decoration: none;
+    list-style: none;
+} 
+ section{
+    padding: 350px 20%;
+
+ }
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: #edecea;
+}
+
+logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.home{
+    width:100%;
+    min-height: 90vh;
+    background-image: url(background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    background-attachment:scroll;
+    display:flex;
+    align-items: center;
+}
+
+.home-text h1{
+    font-size: 45px;
+    color:gold;
+}
+
+.home-text p{
+    font-size:22px;
+    margin: 0.4rem 0 1.8rem;
+    color: #edecea;
+}
+
+.btn{
+    padding: 10px 14px;
+    border-radius: 0.3rem ;
+    background:#edecea;
+    color:blue;
+    font-size: 18px;
+
+}
+
+.btn :hover{
+    background:blue;
+}
+h1{
+    position:relative;
+    align-items: center;
+    justify-items: center;
+}
+
+.title-price{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+}
+
+.title-price h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
